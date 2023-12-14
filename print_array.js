@@ -6,5 +6,5 @@ function print_array(array){
     }
 }
 
-let array = ['ball', 'basket', 'book', 'bar', 'boy'];
-print_array(array);
+let myArray = ['ball', 'basket', 'book', 'bar', 'boy'];
+print_array(myArray);
