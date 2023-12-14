@@ -46,12 +46,12 @@
       - **Parameters and Arguments:** Functions use parameters (in declaration) and arguments (in invocation). Arguments are passed by value.
       - **Function Types:** JavaScript has regular functions, generator functions, async functions, and async generator functions.
       - **Function Definition:**
-            - ``Declaration: function myFunction() { ... }``
-            - ``Expression: const myFunction = function() { ... };``
-            - ``Constructor: const myFunction = new Function("x", "y", "return x * y");``
+        - ``Declaration: function myFunction() { ... }``
+        - ``Expression: const myFunction = function() { ... };``
+        - ``Constructor: const myFunction = new Function("x", "y", "return x * y");``
       - **Special Syntaxes:**
-            - ``Arrow Function: const multiply = (x, y) => x * y;``
-            - ``Method: const obj = { multiply(x, y) { return x * y; } };``
+        - ``Arrow Function: const multiply = (x, y) => x * y;``
+        - ``Method: const obj = { multiply(x, y) { return x * y; } };``
       - **Function Scope:** Functions create a local scope; variables declared within are local and can't be accessed outside.
       - **Block-Level Functions:** In strict mode, functions inside blocks are scoped to that block.
       - **Function Parameters:** Default parameters, rest parameters, and destructuring enhance function parameter handling.
@@ -80,8 +80,8 @@
    Functions are essential in JavaScript, serving as building blocks for reusable code. Key concepts include:
 
      - **Function Declaration:**
-           - Syntax: ``function name(parameters) { /* code */ }``
-           - Functions prevent code duplication and enhance maintainability.
+       - Syntax: ``function name(parameters) { /* code */ }``
+        - Functions prevent code duplication and enhance maintainability.
      - **Local Variables:** Variables declared inside a function are local and not visible outside. Functions can access and modify outer variables if not shadowed by locals.
     - **Global Variables:** Variables declared outside functions are global and accessible from any function.
     - **Parameters:** Functions can receive data through parameters e.g: 
